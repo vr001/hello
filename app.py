@@ -7,4 +7,5 @@ def do_magic():
     return "Hello! {0}".format(now)
 
 if __name__ == "__main__":
+    print("Content-tpe: text/html\n\n")
     print(do_magic())
